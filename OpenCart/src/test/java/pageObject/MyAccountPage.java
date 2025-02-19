@@ -11,7 +11,7 @@ public class MyAccountPage extends BasePage {
 	}
 	
 	@FindBy(xpath=("//h2[normalize-space()='My Account']")) WebElement account;
-	@FindBy(xpath=("//div[@class='list-group']//a[normalize-space()='Logout']"))WebElement logOut;
+	@FindBy(xpath=("//div[@class='list-group-item']//a[normalize-space()='Logout']"))WebElement logOut;
 	
 	public boolean isMyAccountPageDisplayed() {
 		try {
